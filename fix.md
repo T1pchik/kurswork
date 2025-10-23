@@ -1,3 +1,4 @@
+```tcl
 cat << EOF >> /root/zabbix.yml
 services:
   zabbix-database:
@@ -53,3 +54,4 @@ services:
       - zabbix-server
       - zabbix-database
 EOF
+```
