@@ -43,5 +43,6 @@ services:
       - zabbix-database
 EOF
 cat << EOF >> launch.sh
+
 docker compose -f /root/zabbix.yml up -d
 ```
