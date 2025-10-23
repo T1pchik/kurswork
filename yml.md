@@ -1,4 +1,4 @@
-
+```tcl
 cat << EOF >> /root/zabbix.yml
 services:
   zabbix-database:
@@ -44,3 +44,4 @@ services:
 EOF
 cat << EOF >> launch.sh
 docker compose -f /root/zabbix.yml up -d
+```
